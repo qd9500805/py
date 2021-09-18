@@ -1,5 +1,7 @@
-message = str.capitalize('first message')
-print(message)
+import time
+import matplotlib.pyplot as plt
+import numpy as np
 
-message ='second message'.capitalize()
-print(message)
+x = np.linspace(0,20,100)
+plt.plot(x,np.sin(x))
+plt.show()
